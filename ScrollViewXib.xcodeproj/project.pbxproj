@@ -12,6 +12,11 @@
 		AC7328B720B055D6008CB860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7328B520B055D6008CB860 /* Main.storyboard */; };
 		AC7328B920B055D6008CB860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7328B820B055D6008CB860 /* Assets.xcassets */; };
 		AC7328BC20B055D6008CB860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7328BA20B055D6008CB860 /* LaunchScreen.storyboard */; };
+		AC7328C520B05935008CB860 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7328C320B05935008CB860 /* SecondViewController.swift */; };
+		AC7328C620B05935008CB860 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7328C420B05935008CB860 /* SecondViewController.xib */; };
+		AC7328C920B05C9B008CB860 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7328C720B05C9B008CB860 /* Second.storyboard */; };
+		AC7328CB20B05CF6008CB860 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7328CA20B05CF6008CB860 /* Third.storyboard */; };
+		AC7328CD20B06A48008CB860 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7328CC20B06A48008CB860 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AC7328B820B055D6008CB860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7328BB20B055D6008CB860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7328BD20B055D6008CB860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7328C320B05935008CB860 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC7328C420B05935008CB860 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		AC7328C820B05C9B008CB860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ScrollViewXib/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
+		AC7328CA20B05CF6008CB860 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		AC7328CC20B06A48008CB860 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				AC7328B120B055D6008CB860 /* AppDelegate.swift */,
 				AC7328B320B055D6008CB860 /* ViewController.swift */,
+				AC7328C320B05935008CB860 /* SecondViewController.swift */,
+				AC7328C420B05935008CB860 /* SecondViewController.xib */,
 				AC7328B520B055D6008CB860 /* Main.storyboard */,
+				AC7328CC20B06A48008CB860 /* ScrollViewController.swift */,
+				AC7328C720B05C9B008CB860 /* Second.storyboard */,
+				AC7328CA20B05CF6008CB860 /* Third.storyboard */,
 				AC7328B820B055D6008CB860 /* Assets.xcassets */,
 				AC7328BA20B055D6008CB860 /* LaunchScreen.storyboard */,
 				AC7328BD20B055D6008CB860 /* Info.plist */,
@@ -123,8 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7328C620B05935008CB860 /* SecondViewController.xib in Resources */,
 				AC7328BC20B055D6008CB860 /* LaunchScreen.storyboard in Resources */,
 				AC7328B920B055D6008CB860 /* Assets.xcassets in Resources */,
+				AC7328C920B05C9B008CB860 /* Second.storyboard in Resources */,
+				AC7328CB20B05CF6008CB860 /* Third.storyboard in Resources */,
 				AC7328B720B055D6008CB860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7328C520B05935008CB860 /* SecondViewController.swift in Sources */,
 				AC7328B420B055D6008CB860 /* ViewController.swift in Sources */,
 				AC7328B220B055D6008CB860 /* AppDelegate.swift in Sources */,
+				AC7328CD20B06A48008CB860 /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +178,14 @@
 				AC7328BB20B055D6008CB860 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7328C720B05C9B008CB860 /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7328C820B05C9B008CB860 /* Base */,
+			);
+			name = Second.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
